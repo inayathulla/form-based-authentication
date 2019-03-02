@@ -10,5 +10,10 @@ public class BasicController {
 	public String hello() {
 		return "Hello there !";
 	}
+	
+	@GetMapping("/greetings")
+	public String greet() {
+		return "Good day !";
+	}
 
 }
